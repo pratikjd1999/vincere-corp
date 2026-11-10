@@ -29,8 +29,9 @@ Unit tests (Vitest) and end-to-end tests (Playwright) are specified in
 
 ## Homepage explorations
 
-Run `npm install` then `npm run dev`. Visit `/` to compare the twenty-seven homepage
-directions; each opens at `#/templates/:id` and is deep-linkable.
+Run `npm install` then `npm run dev`. `#/` is the Home page (Monolith · Facet, in
+`src/features/home/`). Visit `#/templates` to compare the twenty-seven homepage directions;
+each opens at `#/templates/:id` and is deep-linkable. The gallery is not linked from Home.
 
 > Routes are hash-based (`#/templates/…`) so the site can be hosted on GitHub Pages
 > without server rewrites. The table below lists route ids; prefix them with `#/`.
